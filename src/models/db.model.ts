@@ -1,7 +1,12 @@
 import { DataTypes, Model } from "sequelize";
 import { sequelize } from "../config/init.ts";
 
-export class Enseignant extends Model { }
+export class Enseignant extends Model {
+  declare numens: number;
+  declare nom: string;
+  declare nbheures: number;
+  declare tauxhoraire: number;
+}
 
 Enseignant.init({
   numens: {
