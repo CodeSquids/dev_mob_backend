@@ -3,15 +3,15 @@ Backend of the mobile REST application
 
 
 ## Endpoints
-To get all of db's content: [url]/enseignants/ with **GET** method
+To get all of db's content: **[url]**/enseignants/ with **GET** method
 
-To add data on the database: [url]/enseignants/ with **POST** method
+To add data on the database: **[url]**/enseignants/ with **POST** method
 
-To get stats data on the database: [url]/enseignants/stats with **GET** method
+To get stats data on the database: **[url]**/enseignants/stats with **GET** method
 
-To change data of a line on db's content: [url]/enseignants/:id with **PUT** method
+To change data of a line on db's content: **[url]**/enseignants/:id with **PUT** method
 
-To delete a line on db's content: [url]/enseignants/:id with **DELETE** method
+To delete a line on db's content: **[url]**/enseignants/:id with **DELETE** method
 
 
 ## Env File
