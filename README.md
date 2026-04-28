@@ -21,3 +21,14 @@ DB_USERNAME=**username_db**
 DB_PASSWORD=**password_db**
 DB_HOSTNAME="localhost"
 DB_DIALECT="mysql"
+
+
+## Starting :
+
+"dev": "nodemon --watch src --exec ts-node src/index.ts",
+"build": "tsc",
+"start": "node dist/index.js",
+"test": "echo \"Error: no test specified\" && exit 1"
+
+*Before using "yarn start", don't forget to do "yarn build"*
+*You can directly use by typing the command "yarn dev"*
