@@ -1,9 +1,9 @@
 import type { Request, Response } from "express";
-import { DeleteEnseignant } from "../services/delete.service.ts";
-import { UpdateEnseignant } from "../services/modify.service.ts";
-import {CreateEnseignant} from "../services/create.service.ts";
-import { AllEnseignant } from "../services/selectAll.service.ts";
-import { StatsEnseignant } from "../services/stats.service.ts";
+import { DeleteEnseignant } from "../services/delete.service";
+import { UpdateEnseignant } from "../services/modify.service";
+import {CreateEnseignant} from "../services/create.service";
+import { AllEnseignant } from "../services/selectAll.service";
+import { StatsEnseignant } from "../services/stats.service";
 
 // Controller Insert
 export const insert = async (req: Request, res: Response) => {

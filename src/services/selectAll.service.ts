@@ -1,4 +1,4 @@
-import { sequelize } from "../config/init.ts";
+import { sequelize } from "../config/init";
 
 export const AllEnseignant = async () => {
   const sql = `

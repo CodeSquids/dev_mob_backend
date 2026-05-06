@@ -1,5 +1,5 @@
 import { DataTypes, Model } from "sequelize";
-import { sequelize } from "../config/init.ts";
+import { sequelize } from "../config/init";
 
 export class Enseignant extends Model {
   declare numens: number;

@@ -1,5 +1,5 @@
-import { sequelize } from "../config/init.ts";
-import { Enseignant } from "./db.model.ts";
+import { sequelize } from "../config/init";
+import { Enseignant } from "./db.model";
 
 export const initModels = async() => {
   try {

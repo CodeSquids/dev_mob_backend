@@ -1,8 +1,8 @@
 import express, { type Request, type Response } from 'express'
 import cors from 'cors'
-import { initModels } from './models/index.ts'
+import { initModels } from './models/index'
 import dotenv from 'dotenv'
-import enseignantsRoutes from "./routes/enseignant.route.ts"
+import enseignantsRoutes from "./routes/enseignant.route"
 
 dotenv.config()
 const PORT = Number(process.env.PORT)
