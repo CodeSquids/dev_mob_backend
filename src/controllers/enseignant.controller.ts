@@ -25,9 +25,16 @@ export const stats = async (req: Request, res: Response) => {
 
 // Controller Update
 export const update = async (req: Request, res: Response) => {
-  const id = Number(req.params.id)
-  const result = await UpdateEnseignant(id, req.body)
-  res.json(result)
+  try {
+    const id = Number(req.params.id)
+    if (isNaN(id)) {
+      return res.status(400).json({ error: "Invalid ID format" })
+    }
+    const result = await UpdateEnseignant(id, req.body)
+    res.json(result)
+  } catch (error: any) {
+    res.status(500).json({ error: error.message })
+  }
 }
 
 // Controller Delete
