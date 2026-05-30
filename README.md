@@ -1,7 +1,7 @@
 # dev_mob_backend
 Backend of the mobile REST application
 
-
+This repository can be directly used on the link **https://dev-mob-backend.onrender.com/**
 ## Endpoints
 To get all of db's content: **[url]**/enseignants/ with **GET** method
 
