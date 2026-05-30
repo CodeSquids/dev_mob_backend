@@ -22,7 +22,7 @@
 
 .env
 /node_modules
-/dist
+# /dist
 /.idea
 yarn.lock
 package-lock.json
