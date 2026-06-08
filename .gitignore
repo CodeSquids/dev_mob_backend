@@ -26,3 +26,4 @@
 /.idea
 yarn.lock
 package-lock.json
+.vercel
