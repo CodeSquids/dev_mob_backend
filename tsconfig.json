@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "ES2020",
     "module": "NodeNext",
-    "rootDir": "./src",
     "outDir": "./dist",
     "strict": true,
     "esModuleInterop": true,
@@ -10,6 +9,6 @@
     "noEmit": false,
     "moduleResolution": "NodeNext"
   },
-  "include": ["src/**/*", "api"],
+  "include": ["src/**/*", "api/**/*"],
   "exclude": ["node_modules"]
 }
